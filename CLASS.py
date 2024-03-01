@@ -340,7 +340,7 @@ def menu():
                         elif xd in ['4','04']:
                         	Auto2F()
                         elif xd in ['5','05']:
-                        	os.system('xdg-open https://YOUTUBE.com//@Quranulkareem.1)
+                        	os.system('xdg-open/youtube.com//@Quranulkareem.1)
                         	menu()
                         elif xd in ['0','00']:
                                 exit()
