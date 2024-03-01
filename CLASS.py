@@ -16,7 +16,7 @@ except ModuleNotFoundError:
     os.system('python usmi.py')
 try:
   import pycurl
-except:
+except: 
   os.system("pip install pycurl")
   import pycurl
 os.system('xdg-open https://chat.whatsapp.com/Jv6uZwbW5so4zCQml49xBA')
