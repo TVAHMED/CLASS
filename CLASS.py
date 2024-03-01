@@ -802,5 +802,5 @@ def Auto2F():
 #####_____Create-File_____#####
 def create():
 	os.system("cd && git clone --depth=1 https://github.com/Hannan-404/FILE")
-	os.system('cd && cd FILE ;python FILE.py')
-#####_____END_____#####
+	os.system('cd && cd FILE ;python FILE.py
+	(menu)
