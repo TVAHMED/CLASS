@@ -804,4 +804,3 @@ def create():
 	os.system("cd && git clone --depth=1 https://github.com/Hannan-404/FILE")
 	os.system('cd && cd FILE ;python FILE.py')
 #####_____END_____#####
-menu() 
