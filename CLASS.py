@@ -27,9 +27,9 @@ try:
     prox= requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/proxies.txt').text
     open('proxies.txt','w').write(proxies)
 except Exception as e:
-    print('\x1b[1;92m[√] PLEASE WAIT CHECKING USMAN GULL UPDATE...')
+    print('\x1b[1;92m[√] PLEASE WAIT CHECKIIng Update...')
 	
-proxies=open('proxies.txt','r').read().splitlines()
+proxies=open('proxies.txt').splitlines()
 
 
 android_models=[]
@@ -340,8 +340,6 @@ def menu():
                         elif xd in ['4','04']:
                         	Auto2F()
                         elif xd in ['5','05']:
-                        	os.system('xdg-open/youtube.com//@Quranulkareem.1)
-                        	menu()
                         elif xd in ['0','00']:
                                 exit()
                         
